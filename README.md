@@ -1,6 +1,6 @@
 # The Ganesh Cashew website
 
-This repo houses the assets used to build the Ganesh Cashew website, available at http://ganeshcashew.com.
+This repo houses the assets used to build the Ganesh Cashew website, available at http://ganeshcashews.com.
 
 ## Tools
 
@@ -8,9 +8,9 @@ The website is built and developed using the Static HTML/CSS/JS
 
 ## Website content
 
-The content for the [Ganesh Cashew Website](http://ganeshcashew.com) is in [`content/home`](./content/home), while the content for the Ganesh Cashew documentation is in the [`docs`](./docs) folder.
+The content for the [Ganesh Cashew Website](http://ganeshcashews.com) is in [`content/home`](./content/home), while the content for the Ganesh Cashew documentation is in the [`docs`](./docs) folder.
 
-The latest (edge) version of the documentation lives in the [`docs`](./docs) folder on the `main` branch, and is always viewable on http://ganeshcashew.com/docs. Documentation for specific released versions lives in its own release branch, for example `release-2.1.0`.
+The latest (edge) version of the documentation lives in the [`docs`](./docs) folder on the `main` branch, and is always viewable on http://ganeshcashews.com/docs. Documentation for specific released versions lives in its own release branch, for example `release-2.1.0`.
 
 ### Creating a PR
 
@@ -38,7 +38,7 @@ The CSS for the site is built from [Sass](https://sass-lang.com) inputs in the [
 
 ## Publishing the website
 
-The ZMS website is published automatically on the [Domain](http://ganeshcashew.com) platform. Whenever changes are pushed to the `main` branch, the site is re-built and re-deployed, usually within about one minute.
+The ZMS website is published automatically on the [Domain](http://ganeshcashews.com) platform. Whenever changes are pushed to the `main` branch, the site is re-built and re-deployed, usually within about one minute.
 
 ## Run the ZMS website locally
 
@@ -51,7 +51,7 @@ cd website
 
 ## Step 2: Load documentation content
 
-The Markdown content for the Harbor [docs](http://ganeshcashew.com/docs) is drawn from the [`docs`](./docs) folder and the `release-X` branches. To pull that content into your local website repo:
+The Markdown content for the Harbor [docs](http://ganeshcashews.com/docs) is drawn from the [`docs`](./docs) folder and the `release-X` branches. To pull that content into your local website repo:
 
 ```sh
 make prepare
