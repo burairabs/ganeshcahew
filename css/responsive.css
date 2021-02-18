@@ -132,6 +132,19 @@
 		height: 300px !important;
 		margin-left: 1rem;
 	}
+	.product-responsive{
+		width: 180px;
+		height: 180px;
+	}
+
+	.shop-responsive{
+		width: 200px !important;
+		height: 200px !important;
+		margin-left: 4.2rem;
+	}
+	.shop-item .sale-tag {
+		left: 45px;
+	}
 }
 
 @media only screen and (max-width: 1023px){
